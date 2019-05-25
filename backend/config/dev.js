@@ -1,3 +1,3 @@
 module.exports = {
-    secret:  'real madrid is the best club in the world'//should be removed during production
+    secret:  process.env.SECRET//should be removed during production
 };
