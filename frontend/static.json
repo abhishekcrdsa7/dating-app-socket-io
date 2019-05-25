@@ -1,0 +1,11 @@
+{
+  "root": "build/",
+  "routes": {
+    "/**": "index.html"
+  },
+  "proxies": {
+    "/": {
+      "origin": "https://dating-app-server-as.herokuapp.com"
+    }
+  }
+}
